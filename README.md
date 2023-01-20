@@ -1,4 +1,6 @@
-# spa-matrix-app
+# vue-adjacency-app
+
+Source: https://adjacency-matrix-diagram.vercel.app/
 
 ## Project setup
 ```
