@@ -1,6 +1,6 @@
 <template>
     <g>
-        <circle :r="r" :cx="cx" :cy="cy" @click="handleClick" class="state-prox-e"></circle>
+        <circle :r="r" :cx="cx" :cy="cy" class="state-prox-e"></circle>
     </g>
 </template>
 
@@ -19,13 +19,6 @@
             cx: { type: Number, default: 30/Math.SQRT2/2 },
             cy: { type: Number, default: 30/Math.SQRT2/2 },
             r: { type: Number, default: 8 },
-            click: { type: Function, default: () => {} }
         },
-        methods: {
-            handleClick() {
-                this.$emit('click');
-                //this.console.log('Emitted Sep E');
-            }
-        }
     }
 </script>
